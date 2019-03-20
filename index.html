@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link href="stylesheets/style.css" rel="stylesheet">
+</head>
+<body>
+
+<section class="services">
+    <h1 class="services__title">Оформление заявки на оказание сервисных услуг</h1>
+    <p class="services__paragraph">Уважаемый клиент, если вы обнаружили поломку при использовании устройства и вам
+        необходимо вызвать мастера или курьера для диагностики, пожалуйста, заполните заявку ниже и мы обязательно с
+        вами свяжемся!</p>
+    <p class="services__required">обязательные для заполнения поля</p>
+
+    <form class="services__form form" action="">
+
+        <label class="form__label" for="name">Имя
+            <input class="form__input" name="name" id="name" type="text">
+        </label>
+        <label class="form__label" for="last-name">Фамилия
+            <input class="form__input" name="last-name" id="last-name" type="text">
+        </label>
+        <label class="form__label" for="patronymic">Отчество
+            <input class="form__input" name="patronymic" id="patronymic" type="text">
+        </label>
+        <label class="form__label" for="place">Город, нас. пункт
+            <input class="form__input" name="place" id="place" type="text">
+        </label>
+        <label class="form__label" for="street">Улица
+            <input class="form__input" name="street" id="street" type="text">
+        </label>
+        <label class="form__label" for="house">Номер дома
+            <input class="form__input" name="house" id="house" type="text">
+        </label>
+        <label class="form__label" for="apartments">Номер квартиры
+            <input class="form__input" name="apartments" id="apartments" type="text">
+            <input type="radio" value="отсутствует">
+        </label>
+        <label class="form__label" for="comment">Комментарии
+            <input class="form__input" name="comment" id="comment" type="text">
+        </label>
+        <label class="form__label" for="phone">Телефон
+            <input class="form__input" name="phone" id="phone" type="text">
+        </label>
+        <label class="form__label" for="email">E-mail
+            <input class="form__input" name="email" id="email" type="text">
+        </label>
+        <label class="form__label" for="goods">Серийный
+            номер изделия
+            <input class="form__input" name="goods" id="goods" type="text">
+        </label>
+        <label class="form__label" for="about-bug">Описание
+            дефекта
+            <input class="form__input" name="about-bug" id="about-bug" type="text">
+        </label>
+        <label class="form__label" for="time-call">Укажите удобное
+            время для звонка
+            <input class="form__input" name="time-call" id="time-call" type="radio">
+            <input class="form__input" name="time-call" id="time-call" type="radio">
+            <input class="form__input" name="time-call" id="time-call" type="radio">
+        </label>
+        <label class="form__label" for="time-visit">Укажите
+            удобный день/время
+            для выезда мастера*
+            <input class="form__input" name="time-visit" id="time-visit" type="text" placeholder="01.01.2019">
+        </label>
+        <button type="submit">Оформить заявку</button>
+    </form>
+    <p class="services__paragraph">*Бесплатный ремонт, выезд и диагностика (а также результаты диагностики)
+        осуществляются только если товар на гарантии.
+        Во всех остальных случаях – услуга платная. Всю информацию о стоимости и порядке оплаты вы можете уточнить у
+        нашего оператора.</p>
+</section>
+
+</body>
+</html>
